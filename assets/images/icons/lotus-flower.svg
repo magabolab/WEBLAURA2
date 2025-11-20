@@ -1,0 +1,58 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Icono: Flor de loto / Transformación -->
+  <defs>
+    <linearGradient id="lotus-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C89F7E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B6F5E;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Pétalos externos -->
+  <path d="M32 45 Q24 40 20 35 Q18 30 20 25 L32 30 Z" 
+        stroke="url(#lotus-gradient)" 
+        stroke-width="2" 
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        opacity="0.6"/>
+  
+  <path d="M32 45 Q40 40 44 35 Q46 30 44 25 L32 30 Z" 
+        stroke="url(#lotus-gradient)" 
+        stroke-width="2" 
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        opacity="0.6"/>
+  
+  <!-- Pétalos medios -->
+  <path d="M32 40 Q26 36 24 31 Q23 27 25 23 L32 28 Z" 
+        stroke="url(#lotus-gradient)" 
+        stroke-width="2" 
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        opacity="0.8"/>
+  
+  <path d="M32 40 Q38 36 40 31 Q41 27 39 23 L32 28 Z" 
+        stroke="url(#lotus-gradient)" 
+        stroke-width="2" 
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        opacity="0.8"/>
+  
+  <!-- Pétalo central -->
+  <ellipse cx="32" cy="28" rx="4" ry="6" 
+           stroke="url(#lotus-gradient)" 
+           stroke-width="2" 
+           fill="none"/>
+  
+  <!-- Tallo -->
+  <line x1="32" y1="45" x2="32" y2="55" 
+        stroke="url(#lotus-gradient)" 
+        stroke-width="2" 
+        stroke-linecap="round"/>
+  
+  <!-- Base -->
+  <circle cx="32" cy="28" r="1.5" fill="url(#lotus-gradient)"/>
+</svg>

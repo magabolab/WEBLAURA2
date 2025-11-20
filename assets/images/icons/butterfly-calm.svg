@@ -1,0 +1,46 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Icono: Mariposa en calma (más simple) -->
+  <defs>
+    <linearGradient id="butterfly-simple-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C89F7E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5B8FC4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Cuerpo -->
+  <ellipse cx="32" cy="32" rx="2" ry="12" fill="url(#butterfly-simple-gradient)"/>
+  
+  <!-- Ala superior izquierda -->
+  <path d="M32 26 Q20 18 16 22 Q14 26 18 30 Q24 32 32 30 Z" 
+        stroke="url(#butterfly-simple-gradient)" 
+        stroke-width="2" 
+        fill="none"
+        stroke-linecap="round"/>
+  
+  <!-- Ala superior derecha -->
+  <path d="M32 26 Q44 18 48 22 Q50 26 46 30 Q40 32 32 30 Z" 
+        stroke="url(#butterfly-simple-gradient)" 
+        stroke-width="2" 
+        fill="none"
+        stroke-linecap="round"/>
+  
+  <!-- Ala inferior izquierda -->
+  <path d="M32 36 Q24 42 20 44 Q16 46 18 40 Q20 36 32 36 Z" 
+        stroke="url(#butterfly-simple-gradient)" 
+        stroke-width="2" 
+        fill="none"
+        stroke-linecap="round"/>
+  
+  <!-- Ala inferior derecha -->
+  <path d="M32 36 Q40 42 44 44 Q48 46 46 40 Q44 36 32 36 Z" 
+        stroke="url(#butterfly-simple-gradient)" 
+        stroke-width="2" 
+        fill="none"
+        stroke-linecap="round"/>
+  
+  <!-- Antenas -->
+  <line x1="30" y1="22" x2="28" y2="18" stroke="url(#butterfly-simple-gradient)" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="34" y1="22" x2="36" y2="18" stroke="url(#butterfly-simple-gradient)" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="28" cy="17" r="1.5" fill="url(#butterfly-simple-gradient)"/>
+  <circle cx="36" cy="17" r="1.5" fill="url(#butterfly-simple-gradient)"/>
+</svg>

@@ -1,0 +1,36 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Icono: Corazón con manos protectoras -->
+  <defs>
+    <linearGradient id="heart-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C89F7E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B6F5E;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Corazón -->
+  <path d="M32 50 L18 38 C12 32 12 24 18 20 C24 16 30 18 32 22 C34 18 40 16 46 20 C52 24 52 32 46 38 L32 50Z" 
+        stroke="url(#heart-gradient)" 
+        stroke-width="2.5" 
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+  
+  <!-- Mano izquierda protectora -->
+  <path d="M16 26 Q10 28 8 34 Q7 38 10 40" 
+        stroke="url(#heart-gradient)" 
+        stroke-width="2" 
+        fill="none"
+        stroke-linecap="round"
+        opacity="0.8"/>
+  
+  <!-- Mano derecha protectora -->
+  <path d="M48 26 Q54 28 56 34 Q57 38 54 40" 
+        stroke="url(#heart-gradient)" 
+        stroke-width="2" 
+        fill="none"
+        stroke-linecap="round"
+        opacity="0.8"/>
+  
+  <!-- Detalles decorativos -->
+  <circle cx="32" cy="30" r="2" fill="url(#heart-gradient)" opacity="0.5"/>
+</svg>
