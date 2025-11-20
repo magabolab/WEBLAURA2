@@ -42,6 +42,7 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/variables.css">
     <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/components.css">
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
@@ -92,7 +93,7 @@
     </header>
 
     <!-- ========================================
-       HERO SECTION
+       HERO SECTION - OPTIMIZADO
        ======================================== -->
     <section id="inicio" class="hero">
         <div class="container">
@@ -100,19 +101,33 @@
                 <span class="hero-badge">Psicología Sanitaria Col. CV19270</span>
                 <h1 class="hero-title">No tienes que elegir entre maternar y ser tú</h1>
                 <p class="hero-subtitle">
-                    Puede que estés cansada de ser fuerte. De sostenerlo todo sin espacio para ti.
-                    Este lugar no es para cambiarte, es para que vuelvas a encontrarte.
+                    Cansada de sostenerte sola y llegar vacía a casa cada día.
+                    Este espacio no es para cambiarte—es para que vuelvas a ti.
                 </p>
-                <div class="hero-cta">
-                    <a href="#contacto" class="btn btn-primary btn-lg">Reserva tu primera cita</a>
-                    <a href="#sobre-mi" class="btn btn-outline btn-lg">Conoce más sobre mí</a>
+
+                <!-- Trust badges -->
+                <div class="trust-badges"
+                    style="display: flex; gap: 1rem; justify-content: center; margin-bottom: 2rem; flex-wrap: wrap;">
+                    <span class="badge badge-outline">Primera cita 60€</span>
+                    <span class="badge badge-outline">100% Online</span>
+                    <span class="badge badge-outline">Sin compromiso</span>
                 </div>
+
+                <div class="hero-cta">
+                    <a href="#contacto" class="btn btn-primary btn-lg">Reservar primera sesión (60€)</a>
+                    <a href="#sobre-mi" class="btn btn-outline btn-lg">Conoce cómo funciona</a>
+                </div>
+
+                <p class="social-proof"
+                    style="margin-top: 2rem; color: var(--color-text-light); font-size: var(--text-sm);">
+                    💗 Más de 50 mujeres ya han dado el primer paso
+                </p>
             </div>
         </div>
     </section>
 
     <!-- ========================================
-       SECCIÓN: TE GUSTARÍA PODER...
+       SECCIÓN: TE GUSTARÍA PODER... - OPTIMIZADA
        ======================================== -->
     <section id="te-gustaria" class="section desires-section">
         <div class="container">
@@ -121,53 +136,52 @@
             <div class="desires-grid">
                 <div class="desire-card fade-in stagger-1">
                     <div class="desire-icon">💝</div>
-                    <h3 class="desire-title">Cuidarte sin sentir que estás abandonando a los demás</h3>
+                    <h3 class="desire-title">Cuidarte sin culpa</h3>
                     <p class="desire-text">
-                        Has pasado tanto tiempo atendiendo las necesidades de todos que ya no sabes cómo cuidar de ti
-                        sin sentir culpa.
+                        Has pasado tanto tiempo atendiendo a todos que ya no sabes cómo cuidar de ti sin sentir que
+                        estás abandonando.
                         Como si elegirte fuera traicionar a quienes amas.
                     </p>
                 </div>
 
                 <div class="desire-card fade-in stagger-2">
                     <div class="desire-icon">🌸</div>
-                    <h3 class="desire-title">Sentirte tú misma sin dejar de ser madre</h3>
+                    <h3 class="desire-title">Sentirte tú sin dejar de ser madre</h3>
                     <p class="desire-text">
-                        Desde que llegó la maternidad te cuesta reconocerte. No es que no ames ser madre, es que
-                        extrañas sentirte tú,
-                        libre, entera, sin tener que elegir entre tus partes.
+                        Desde que llegó la maternidad te cuesta reconocerte. No es que no ames ser madre—es que extrañas
+                        sentirte tú, libre, entera.
                     </p>
                 </div>
 
                 <div class="desire-card fade-in stagger-3">
                     <div class="desire-icon">💬</div>
-                    <h3 class="desire-title">Expresar lo que sientes sin miedo a ser juzada</h3>
+                    <h3 class="desire-title">Expresar lo que sientes sin miedo</h3>
                     <p class="desire-text">
-                        Hay días en los que quisieras gritar, llorar o simplemente no estar… pero callas por miedo a
-                        parecer débil o desagradecida.
+                        Hay días en los que quisieras gritar o llorar, pero callas por miedo a parecer débil o
+                        desagradecida.
                         Solo anhelas un lugar donde puedas ser tú, con todo lo que eso implica.
                     </p>
                 </div>
 
                 <div class="desire-card fade-in stagger-4">
                     <div class="desire-icon">🕊️</div>
-                    <h3 class="desire-title">Habitar tu maternidad con presencia, no desde el desborde</h3>
+                    <h3 class="desire-title">Vivir la maternidad con calma</h3>
                     <p class="desire-text">
                         Te esfuerzas cada día por estar ahí, pero por dentro sientes que te estás apagando.
-                        Quisieras disfrutar sin estar en modo alerta, vivir tu maternidad desde la calma, no desde la
-                        exigencia.
+                        Quisieras disfrutar sin estar en modo alerta, vivir desde la calma, no desde la exigencia.
                     </p>
                 </div>
             </div>
 
             <div class="text-center mt-12">
-                <p class="text-accent text-2xl">Puedo acompañarte en este proceso</p>
+                <p class="text-accent text-2xl" style="margin-bottom: 1rem;">Puedo acompañarte en este proceso</p>
+                <a href="#contacto" class="btn btn-primary">Reservar mi primera sesión</a>
             </div>
         </div>
     </section>
 
     <!-- ========================================
-       SECCIÓN: SOBRE LAURA
+       SECCIÓN: SOBRE LAURA - OPTIMIZADA
        ======================================== -->
     <section id="sobre-mi" class="section about-section">
         <div class="container">
@@ -224,13 +238,41 @@
                         <span>🎓</span>
                         <span>Psicóloga Sanitaria | Col. CV19270</span>
                     </div>
+
+                    <!-- Credenciales Extendidas -->
+                    <div class="credentials-extended"
+                        style="margin-top: 2rem; padding: 2rem; background: var(--color-secondary-light); border-radius: var(--radius-xl);">
+                        <h3 style="margin-bottom: 1rem; color: var(--color-primary-dark);">Formación y Experiencia</h3>
+                        <ul style="list-style: none; padding: 0; display: grid; gap: 0.75rem;">
+                            <li style="display: flex; align-items: start; gap: 0.5rem;">
+                                <span style="color: var(--color-accent); font-weight: bold;">✓</span>
+                                <span><strong>Psicóloga Sanitaria</strong> - Colegiada CV19270</span>
+                            </li>
+                            <li style="display: flex; align-items: start; gap: 0.5rem;">
+                                <span style="color: var(--color-accent); font-weight: bold;">✓</span>
+                                <span>Especializada en <strong>Terapias de Tercera Generación</strong></span>
+                            </li>
+                            <li style="display: flex; align-items: start; gap: 0.5rem;">
+                                <span style="color: var(--color-accent); font-weight: bold;">✓</span>
+                                <span>Terapia de Aceptación y Compromiso (ACT)</span>
+                            </li>
+                            <li style="display: flex; align-items: start; gap: 0.5rem;">
+                                <span style="color: var(--color-accent); font-weight: bold;">✓</span>
+                                <span>Mindfulness aplicado a la maternidad</span>
+                            </li>
+                            <li style="display: flex; align-items: start; gap: 0.5rem;">
+                                <span style="color: var(--color-accent); font-weight: bold;">✓</span>
+                                <span><strong>+500 horas</strong> de acompañamiento a madres y mujeres</span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- ========================================
-       SECCIÓN: SERVICIOS
+       SECCIÓN: SERVICIOS - OPTIMIZADA
        ======================================== -->
     <section id="servicios" class="section services-section">
         <div class="container">
@@ -244,17 +286,33 @@
                     <div class="service-icon">👤</div>
                     <h3 class="service-title">Terapia Online Individual</h3>
                     <p class="service-description">
-                        Un espacio íntimo, seguro y sin juicio donde poder soltar lo que sostienes cada día.
-                        Sesiones desde la calma, con herramientas prácticas y un enfoque integral.
+                        Sesiones donde no tienes que explicar por qué estás cansada.
+                        Trabajamos desde la aceptación, no desde el "tienes que ser mejor".
                     </p>
+
+                    <h4 style="font-size: var(--text-lg); margin: 1.5rem 0 1rem; color: var(--color-primary);">
+                        Herramientas que usamos:</h4>
                     <ul class="service-features">
-                        <li>Sesiones personalizadas de 50-60 minutos</li>
-                        <li>Enfoque en terapias de tercera generación</li>
-                        <li>Herramientas prácticas para el día a día</li>
-                        <li>Espacio seguro y sin juicios</li>
-                        <li>Flexibilidad horaria</li>
+                        <li>ACT (Aceptación y Compromiso)</li>
+                        <li>Mindfulness adaptado a la maternidad</li>
+                        <li>Gestión emocional práctica</li>
+                        <li>Establecimiento de límites sin culpa</li>
                     </ul>
-                    <a href="#precios" class="btn btn-accent">Ver precios</a>
+
+                    <h4 style="font-size: var(--text-lg); margin: 1.5rem 0 1rem; color: var(--color-primary);">¿Cómo
+                        funciona?</h4>
+                    <ol style="list-style: decimal; padding-left: 1.5rem; margin-bottom: 1.5rem;">
+                        <li style="margin-bottom: 0.5rem;">Primera sesión: Nos conocemos y definimos objetivos</li>
+                        <li style="margin-bottom: 0.5rem;">Sesiones semanales/quincenales según tu necesidad</li>
+                        <li style="margin-bottom: 0.5rem;">Tareas prácticas entre sesiones</li>
+                        <li style="margin-bottom: 0.5rem;">Seguimiento personalizado</li>
+                    </ol>
+
+                    <p style="font-size: var(--text-sm); color: var(--color-text-light); margin-bottom: 1.5rem;">
+                        <strong>Duración:</strong> 50-60 minutos | <strong>Formato:</strong> Online vía videollamada
+                    </p>
+
+                    <a href="#precios" class="btn btn-accent">Ver precios y reservar</a>
                 </div>
 
                 <div class="service-card fade-in">
@@ -278,7 +336,7 @@
     </section>
 
     <!-- ========================================
-       SECCIÓN: PRECIOS
+       SECCIÓN: PRECIOS - OPTIMIZADA
        ======================================== -->
     <section id="precios" class="section pricing-section">
         <div class="container">
@@ -302,16 +360,26 @@
                 </div>
 
                 <div class="pricing-card featured fade-in">
-                    <h3 class="pricing-title">Primera Sesión</h3>
+                    <h3 class="pricing-title">✨ Sesión de Conocimiento</h3>
                     <div class="pricing-amount">60€</div>
-                    <p class="pricing-period">Precio reducido</p>
+                    <p class="pricing-period">Precio reducido de bienvenida</p>
+
+                    <h4 style="font-size: var(--text-lg); margin: 1rem 0; color: var(--color-primary-dark);">Qué
+                        incluye:</h4>
                     <ul class="pricing-features">
-                        <li>✓ Primera sesión conocernos</li>
-                        <li>✓ Duración: 60 minutos</li>
-                        <li>✓ Sin compromiso</li>
-                        <li>✓ Precio especial de bienvenida</li>
+                        <li>✓ 60 minutos de sesión completa</li>
+                        <li>✓ Evaluación de tu situación actual</li>
+                        <li>✓ Plan de trabajo personalizado</li>
+                        <li>✓ Sin compromiso de continuidad</li>
                     </ul>
-                    <a href="#contacto" class="btn btn-accent">Reservar ahora</a>
+
+                    <a href="#contacto" class="btn btn-accent btn-lg">Reservar mi sesión de 60€</a>
+
+                    <p
+                        style="margin-top: 1rem; font-size: var(--text-sm); font-style: italic; color: var(--color-text-light);">
+                        💬 "Sin presiones. Solo nos conocemos y vemos si conectamos"
+                    </p>
+
                     <span class="pricing-savings">Ahorra 20€</span>
                 </div>
 
@@ -563,101 +631,405 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- ========================================
-       SECCIÓN: CONTACTO / CTA FINAL
-       ======================================== -->
-    <section id="contacto" class="section contact-section">
-        <div class="container">
-            <h2 class="section-title slide-up">Pide tu cita aquí</h2>
-            <p class="section-subtitle">
-                Estoy aquí para acompañarte. Elige la forma que te resulte más cómoda para contactarme.
-            </p>
-
-            <div class="contact-methods">
-                <a href="tel:+34XXXXXXXXX" class="contact-method fade-in stagger-1">
-                    <span class="contact-icon">📞</span>
-                    <span class="contact-label">Teléfono</span>
-                    <span class="contact-value">Llámame</span>
-                </a>
-
-                <a href="https://wa.me/34XXXXXXXXX?text=Hola%20Laura,%20me%20gustaría%20solicitar%20una%20cita"
-                    target="_blank" rel="noopener noreferrer" class="contact-method fade-in stagger-2">
-                    <span class="contact-icon">💬</span>
-                    <span class="contact-label">WhatsApp</span>
-                    <span class="contact-value">Escríbeme</span>
-                </a>
-
-                <a href="mailto:contacto@laurabeneitepsicologia.com" class="contact-method fade-in stagger-3">
-                    <span class="contact-icon">✉️</span>
-                    <span class="contact-label">Email</span>
-                    <span class="contact-value">Envíame un correo</span>
-                </a>
-            </div>
-
-            <div class="mt-12 text-center">
-                <p class="text-accent" style="font-size: var(--text-xl);">
-                    "El primer paso es el más importante. Te espero."
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- ========================================
-       FOOTER
-       ======================================== -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <h3>Laura Beneite Psicología</h3>
-                    <p>
-                        Psicóloga sanitaria especializada en acompañar a mujeres y madres en procesos de ansiedad,
-                        autoestima y gestión emocional.
-                    </p>
-                    <p><strong>Col. CV19270</strong></p>
-                </div>
-
-                <div class="footer-section">
-                    <h4>Enlaces</h4>
-                    <div class="footer-links">
-                        <a href="#inicio" class="footer-link">Inicio</a>
-                        <a href="#sobre-mi" class="footer-link">Sobre mí</a>
-                        <a href="#servicios" class="footer-link">Servicios</a>
-                        <a href="#precios" class="footer-link">Precios</a>
-                        <a href="#faq" class="footer-link">FAQ</a>
-                        <a href="#contacto" class="footer-link">Contacto</a>
+                <div class="accordion-item fade-in">
+                    <button class="accordion-header">
+                        <span>No estoy tan mal, hay otras personas que lo necesitan más</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                                Lo sé. Has aprendido a minimizar lo que sientes. Pero tu dolor no tiene que ser extremo
+                                para merecer cuidado.
+                                Tú también cuentas.
+                            </p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="footer-section">
-                    <h4>Sígueme</h4>
-                    <div class="social-links">
+                <div class="accordion-item fade-in">
+                    <button class="accordion-header">
+                        <span>Ya estuve en terapia y no me ayudó</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                                No estás sola. Muchas han pasado por lo mismo. Este no es un espacio para exigirte más,
+                                sino para que, por fin,
+                                te sientas acompañada sin juicio.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+       SECCIÓN: SITUACIONES IDENTIFICABLES
+       ======================================== -->
+    <section id="situaciones" class="section situations-section">
+        <div class="container">
+            <h2 class="section-title slide-up">¿Te identificas con alguna de estas situaciones?</h2>
+            <p class="section-subtitle">¡Entonces esto es para ti!</p>
+
+            <div class="situations-grid">
+                <div class="situation-card fade-in">
+                    <div class="situation-emoji">😔</div>
+                    <h3 class="situation-title">Culpa Constante</h3>
+                    <ul class="situation-questions">
+                        <li>¿Te sientes culpable por querer un momento para ti?</li>
+                        <li>¿Te castigas por no disfrutar la maternidad "como deberías"?</li>
+                    </ul>
+                    <p class="situation-answer">
+                        La culpa no es parte del amor, es parte del discurso que te enseñaron. Cuidarte también es una
+                        forma de cuidar.
+                        Sin exigencias. Sin castigo.
+                    </p>
+                </div>
+
+                <div class="situation-card fade-in">
+                    <div class="situation-emoji">🌫️</div>
+                    <h3 class="situation-title">Sensación de Haber Desaparecido</h3>
+                    <ul class="situation-questions">
+                        <li>¿Ya no sabes quién eres más allá de ser madre?</li>
+                        <li>¿Extrañas sentirte tú, pero no sabes ni por dónde empezar a buscarte?</li>
+                    </ul>
+                    <p class="situation-answer">
+                        No tienes que elegir entre maternar y ser tú. Puedes volver a ti poco a poco, sin renunciar a
+                        nada,
+                        recuperando tu voz y tu centro.
+                    </p>
+                </div>
+
+                <div class="situation-card fade-in">
+                    <div class="situation-emoji">🌊</div>
+                    <h3 class="situation-title">Desbordamiento Emocional</h3>
+                    <ul class="situation-questions">
+                        <li>¿Sientes que estás siempre en alerta, como si nunca pudieras apagar tu mente?</li>
+                        <li>¿Te cuesta disfrutar porque estás agotada incluso antes de empezar el día?</li>
+                    </ul>
+                    <p class="situation-answer">
+                        No tienes que seguir en modo supervivencia. Puedes crear un espacio donde tú también respires,
+                        sin tener que demostrar nada.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+       SECCIÓN: TESTIMONIOS
+       ======================================== -->
+    <section id="testimonios" class="section testimonials-section">
+        <div class="container">
+            <h2 class="section-title slide-up">Esto es lo que opinan mis clientas</h2>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card fade-in">
+                    <p class="testimonial-quote">
+                        "Laura me ayudó a entender que cuidarme no es egoísmo. Por primera vez en años, me siento yo
+                        misma."
+                    </p>
+                    <p class="testimonial-author">— María, 34 años</p>
+                </div>
+
+                <div class="testimonial-card fade-in">
+                    <p class="testimonial-quote">
+                        "Encontré un espacio donde puedo ser honesta sin miedo. Laura entiende lo que es ser madre y
+                        mujer a la vez."
+                    </p>
+                    <p class="testimonial-author">— Ana, 38 años</p>
+                </div>
+
+                <div class="testimonial-card fade-in">
+                    <p class="testimonial-quote">
+                        "Gracias a la terapia, he aprendido a poner límites sin culpa. Mi familia también lo nota."
+                    </p>
+                    <p class="testimonial-author">— Carmen, 41 años</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+       SECCIÓN: FAQ
+       ======================================== -->
+    <section id="faq" class="section faq-section">
+        <div class="container">
+            <h2 class="section-title slide-up">Preguntas Frecuentes</h2>
+
+            <div class="accordion">
+                <div class="accordion-item fade-in">
+                    <button class="accordion-header">
+                        <span>¿Cómo es la primera cita?</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                                La primera sesión tiene una duración de 1 hora, donde estaré escuchando con atención
+                                para poder definir el problema
+                                principal que traes a consulta. Si no lo tienes claro, ¡no te preocupes! Yo me encargaré
+                                de ir haciendo preguntas
+                                que te ayudarán a definir el problema a trabajar.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item fade-in">
+                    <button class="accordion-header">
+                        <span>¿Qué duración tienen las sesiones?</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                                Las sesiones tienen una duración de 50-60 minutos. Este tiempo es suficiente para
+                                trabajar de forma profunda
+                                sin
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item fade-in">
+                    <button class="accordion-header">
+                        <span>¿Qué plataforma usaremos para la sesión online?</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                                Utilizamos plataformas seguras y privadas como Zoom o Google Meet, según tu preferencia.
+                                Te enviaré el enlace antes de la sesión para que solo tengas que hacer clic y
+                                conectarte.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item fade-in">
+                    <button class="accordion-header">
+                        <span>¿Cómo hago el pago de las sesiones online?</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                                El pago se realiza por transferencia bancaria o Bizum antes de la sesión.
+                                Te proporcionaré todos los datos necesarios tras confirmar tu cita.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+       NUEVA SECCIÓN: PARA QUIÉN ES
+       ======================================== -->
+    <section class="section" style="background: var(--color-white);">
+        <div class="container">
+            <h2 class="section-title">¿Es este espacio para ti?</h2>
+
+            <div class="grid" style="grid-template-columns: 1fr; gap: 3rem; max-width: 900px; margin: 0 auto;">
+                <!-- Para quién SÍ -->
+                <div
+                    style="padding: 2rem; background: var(--color-secondary-light); border-radius: var(--radius-xl); border-left: 4px solid var(--color-accent);">
+                    <h3 style="color: var(--color-primary-dark); margin-bottom: 1.5rem;">✓ Este espacio es para ti si...
+                    </h3>
+                    <ul style="list-style: none; padding: 0; display: grid; gap: 1rem;">
+                        <li style="display: flex; gap: 0.75rem; align-items: start;">
+                            <span style="color: var(--color-accent); font-size: 1.25rem; flex-shrink: 0;">✓</span>
+                            <span>Sientes que la maternidad te desborda</span>
+                        </li>
+                        <li style="display: flex; gap: 0.75rem; align-items: start;">
+                            <span style="color: var(--color-accent); font-size: 1.25rem; flex-shrink: 0;">✓</span>
+                            <span>Te cuesta poner límites sin sentir culpa</span>
+                        </li>
+                        <li style="display: flex; gap: 0.75rem; align-items: start;">
+                            <span style="color: var(--color-accent); font-size: 1.25rem; flex-shrink: 0;">✓</span>
+                            <span>Extrañas sentirte tú misma</span>
+                        </li>
+                        <li style="display: flex; gap: 0.75rem; align-items: start;">
+                            <span style="color: var(--color-accent); font-size: 1.25rem; flex-shrink: 0;">✓</span>
+                            <span>Vives en modo automático, sin parar</span>
+                        </li>
+                        <li style="display: flex; gap: 0.75rem; align-items: start;">
+                            <span style="color: var(--color-accent); font-size: 1.25rem; flex-shrink: 0;">✓</span>
+                            <span>Te exiges demasiado y nunca te sientes suficiente</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Para quién NO -->
+                <div
+                    style="padding: 2rem; background: rgba(229, 115, 115, 0.05); border-radius: var(--radius-xl); border-left: 4px solid var(--color-error);">
+                    <h3 style="color: var(--color-primary-dark); margin-bottom: 1.5rem;">✗ Este NO es el espacio
+                        adecuado si...</h3>
+                    <ul style="list-style: none; padding: 0; display: grid; gap: 1rem;">
+                        <li style="display: flex; gap: 0.75rem; align-items: start;">
+                            <span style="color: var(--color-error); font-size: 1.25rem; flex-shrink: 0;">✗</span>
+                            <span>Buscas consejos rápidos de crianza</span>
+                        </li>
+                        <li style="display: flex; gap: 0.75rem; align-items: start;">
+                            <span style="color: var(--color-error); font-size: 1.25rem; flex-shrink: 0;">✗</span>
+                            <span>Esperas una solución mágica instantánea</span>
+                        </li>
+                        <li style="display: flex; gap: 0.75rem; align-items: start;">
+                            <span style="color: var(--color-error); font-size: 1.25rem; flex-shrink: 0;">✗</span>
+                            <span>No estás dispuesta a mirarte hacia dentro</span>
+                        </li>
+                        <li style="display: flex; gap: 0.75rem; align-items: start;">
+                            <span style="color: var(--color-error); font-size: 1.25rem; flex-shrink: 0;">✗</span>
+                            <span>Buscas terapia presencial (solo ofrezco online)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+       SECCIÓN: CONTACTO - REDISEÑADA
+       ======================================== -->
+    <section id="contacto" class="section contact-section-new">
+        <div class="container">
+            <div class="contact-wrapper-new">
+                <!-- Columna Izquierda: Información -->
+                <div class="contact-info-new fade-in">
+                    <span class="availability-badge">✨ Plazas limitadas para Marzo 2025</span>
+                    <h2>Da el primer paso hacia ti</h2>
+                    <p class="contact-lead">
+                        Sé que contactar por primera vez puede dar vértigo. He diseñado un proceso sencillo para que te
+                        sientas cómoda desde el principio.
+                    </p>
+
+                    <div class="process-steps-new">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div>
+                                <h4>Escríbeme</h4>
+                                <p>Por WhatsApp o Email. Sin presiones, a tu ritmo.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div>
+                                <h4>Agendamos juntas</h4>
+                                <p>Eliges el horario que mejor te venga.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div>
+                                <h4>Nos conectamos</h4>
+                                <p>Recibes el enlace y comenzamos tu proceso.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Columna Derecha: Tarjeta CTA -->
+                <div class="contact-cta-card fade-in">
+                    <div class="cta-card-inner">
+                        <h3>Reserva tu primera sesión</h3>
+                        <p class="cta-subtitle">Primera sesión a precio reducido: <strong>60€</strong></p>
+
+                        <a href="https://wa.me/34XXXXXXXXX?text=Hola%20Laura%2C%20me%20gustaría%20reservar%20mi%20primera%20sesión"
+                            class="btn btn-primary btn-lg btn-block" target="_blank" rel="noopener">
+                            <span style="font-size: 1.25rem; margin-right: 0.5rem;">💬</span>
+                            Escribir por WhatsApp
+                        </a>
+
+                        <div class="or-divider">
+                            <span>o si lo prefieres</span>
+                        </div>
+
+                        <a href="mailto:laura@psicologia.com" class="btn btn-outline btn-block">
+                            <span style="margin-right: 0.5rem;">✉️</span>
+                            Enviar un Email
+                        </a>
+
+                        <p class="response-time">⏰ Respuesta en menos de 24h (L-V)</p>
+                        <p class="security-note">🔒 Confidencialidad absoluta</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+       FOOTER CON CTA CREATIVO
+       ======================================== -->
+    <footer class="footer-new">
+        <div class="container">
+            <div class="footer-content-new">
+                <!-- Columna Izquierda: Info -->
+                <div class="footer-left">
+                    <div class="footer-brand">
+                        <h3>Laura Beneite<span
+                                style="display: block; font-size: 0.7em; font-weight: 400; margin-top: 0.25rem; color: var(--color-text-light);">Psicología
+                                Sanitaria</span></h3>
+                        <p style="margin-top: 1rem;">
+                            Acompañamiento especializado para mujeres y madres en procesos de ansiedad, autoestima y
+                            gestión emocional.
+                        </p>
+                        <p style="margin-top: 0.5rem;"><strong>Col. CV19270</strong></p>
+                    </div>
+
+                    <div class="footer-nav">
+                        <div class="footer-nav-col">
+                            <h4>Navegación</h4>
+                            <a href="#inicio">Inicio</a>
+                            <a href="#sobre-mi">Sobre mí</a>
+                            <a href="#servicios">Servicios</a>
+                        </div>
+                        <div class="footer-nav-col">
+                            <h4>Información</h4>
+                            <a href="#precios">Precios</a>
+                            <a href="#faq">Preguntas frecuentes</a>
+                            <a href="#contacto">Contacto</a>
+                        </div>
+                    </div>
+
+                    <div class="footer-social">
                         <a href="https://www.instagram.com/laurabeneitepsicologia/" target="_blank"
-                            rel="noopener noreferrer" class="social-link" aria-label="Instagram">
-                            📷
+                            rel="noopener noreferrer" aria-label="Instagram">
+                            📷 Instagram
                         </a>
                         <a href="https://www.facebook.com/laurabeneitepsicologia/" target="_blank"
-                            rel="noopener noreferrer" class="social-link" aria-label="Facebook">
-                            👥
+                            rel="noopener noreferrer" aria-label="Facebook">
+                            👥 Facebook
                         </a>
-                        <a href="https://wa.me/34XXXXXXXXX" target="_blank" rel="noopener noreferrer"
-                            class="social-link" aria-label="WhatsApp">
-                            💬
+                    </div>
+                </div>
+
+                <!-- Columna Derecha: CTA Creativo -->
+                <div class="footer-cta">
+                    <div class="footer-cta-box">
+                        <h3>¿Lista para dar el primer paso?</h3>
+                        <p>No tienes que seguir sosteniéndolo todo sola.</p>
+                        <a href="#contacto" class="btn btn-accent btn-lg">
+                            Reservar mi sesión (60€)
                         </a>
+                        <p class="footer-cta-note">✨ Plazas limitadas cada mes</p>
                     </div>
                 </div>
             </div>
 
             <div class="footer-bottom">
                 <p>© 2025 Laura Beneite Psicología. Todos los derechos reservados.</p>
-                <p>
-                    <a href="/politica-privacidad.html" class="footer-link">Políticas de Privacidad</a> |
-                    <a href="/aviso-legal.html" class="footer-link">Aviso Legal</a>
-                </p>
+                <div class="footer-legal">
+                    <a href="/politica-privacidad.html">Política de Privacidad</a>
+                    <span>·</span>
+                    <a href="/aviso-legal.html">Aviso Legal</a>
+                </div>
             </div>
         </div>
     </footer>
